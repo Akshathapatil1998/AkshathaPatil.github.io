@@ -84,10 +84,12 @@
 
 										<li class="icon solid fa-bolt"><b>Machine Learning</b></br> Predictive Analytics,AutoML, NLP, Deep Learning</li>
 										<!-- <li class="icon solid fa-check"><b>OLAP Platforms</b></br>Databricks, GCP</li> -->
+										<li class="icon solid fa-database"><b>Database Management</b></br>PostgreSQL, Pinecone Vector Database, Snowflake</li>
+										"
 										
 										<li class="icon solid fa-chart-line"> <b>Statistics</b></br>Linear/ Logistic Regression, A/B testing, Multi-variate testing, Clustering, Hypothesis testing</li>
 										<li class="icon solid fa-key"> <b>Key Skills</b></br>Dimensional Modeling,ER Modeling,Data Analysis,UAT, Data cataloging using Databricks Lakehouse</li>
-										 <li class="icon solid fa-check"><b>Other</b></br>Amazon Web Services,Google Cloud Platform, Jira, Git, ServiceNow, Matlab, Weaviate, LangChain</li>
+										 <li class="icon solid fa-cloud"><b>Cloud Platforms</b></br>Amazon Web Services,Google Cloud Platform, Heroku</li>
 										
 									</ul>
 								</div>
@@ -102,7 +104,7 @@
 										<div class="inner", style="width: 100%;">
 											<h4>Northeastern University,Boston,USA</h4>
 											<div><span style="color: darkgreen; font-style: italic; text-align: right;">September 2022 - May 2024</span></div>
-											<p>Master of Science in Information Systems | GPA: 3.45/4.00 </p>
+											<p>Master of Science in Information Systems | GPA: 3.5/4.00 </p>
 												<blockquote ><b>Coursework:</b> Application Engineering Development, Database Design and Database Management,Data Science Engineering Methods and Tools,Object Oriented Design
 												
 												</blockquote>
@@ -240,10 +242,10 @@
 											</div>
 										</article>
 										<article>
-											<a href="https://github.com/Akshathapatil1998/Disease-Diagnosis-and-Medic-Recommendation-System" class="image"><img src="images/disease dig image.JPG" alt="" width="250" height="250" /></a>
+											<a href="https://github.com/Akshathapatil1998/Personalized-Healthcare-Recommendations-System" class="image"><img src="images/Healthfinal.png"  alt="" width="250" height="250" /></a>
 											<div class="inner">
-												<h4><a href ="https://github.com/Akshathapatil1998/Disease-Diagnosis-and-Medic-Recommendation-System">Disease Diagnosis and Medic Recommendation System</a></h4>
-												<p style="text-align: justify;">The aim of this project is to develop a comprehensive Disease Diagnosis and Medic Recommendation System that caters to the needs of expats and students living away from home. The system will enable users to accurately match their symptoms to potential diseases, access detailed information about those diseases, and locate suitable doctors in Massachusetts for prompt medical care</p>
+												<h4><a href ="https://github.com/Akshathapatil1998/Personalized-Healthcare-Recommendations-System">Personalized-Healthcare-Recommendations-System </a></h4>
+												<p style="text-align: justify;">This project presents an innovative Healthcare Recommendation and Management System, designed to enhance the healthcare experience for both patients and medical professionals. By integrating advanced technologies like AI-driven data analysis, vector databases, and automated data processing workflows, this system aims to simplify the complexity of healthcare decision-making</p>
 												<div class="details-wrapper">
 													<style>
 														details summary {
@@ -260,15 +262,16 @@
 													<summary>Project Details</summary>
 													<div>
 														<h3>Overview</h3>
-														<p>Key Steps involved in the project are: </p>
+														<p>Our integrated healthcare system comprises five interconnected modules, each playing a crucial role in delivering efficient and personalized healthcare solutions. Below is an overview of each module: </p>
 														<ul>
-															<li style="text-align: justify;"><strong>Data Collection and Preprocessing</strong> -  The team collected relevant data for the project from various sources. This included scraping data from Wikipedia tables, Massdoc websites, and parsing .CSV files. The data sources used included lists of infectious diseases, lists of doctors and their hospitals, and other related sources like web scrapping using scrapy</li>
-															<li style="text-align: justify;"><strong> Data Parsing and Cleaning</strong> - The collected data was processed using Python to parse and clean it. This step involved extracting the necessary information, removing any inconsistencies or errors, and ensuring the data was in a standardized format for further processing</li>
-															<li style="text-align: justify;"><strong> Data Reformatting</strong> -The data was reformatted to ensure consistency and coherence. This step involved organizing the data into appropriate tables and adjusting the structure to align with the project's requirements.</li>
-															<li style="text-align: justify;"><strong>Schema Normalization</strong> - The team performed schema normalization to improve data consistency, reduce redundancy, and enhance overall database organization. This involved splitting existing tables into new tables, establishing relationships between them, and optimizing the database structure</li>
+															<li style="text-align: justify;"><strong>Data Collection </strong> - The team collected relevant data from diverse sources, including scraping data from Wikipedia tables, Massdoc websites, and parsing .CSV files.
+																Data sources included lists of infectious diseases, information about doctors and their affiliated hospitals, and other related sources obtained through web scraping using tools like scrapy.</li>
+															<li style="text-align: justify;"><strong> Data Processing with Apache Airflow</strong> - Manages and orchestrates data workflows to ensure seamless data processing.Processes diverse medical data sources in real-time, providing valuable insights for decision-making.</li>
+															<li style="text-align: justify;"><strong> Pinecone and OpenAI for Personalized Recommendations</strong> -Leverages Pinecone's vector database for efficient data retrieval, enhancing the system's responsiveness.Utilizes OpenAI's capabilities for intelligent data processing, delivering personalized medicine lists, doctor suggestions, and hospital recommendations.</li>
+															<li style="text-align: justify;"><strong>Streamlit-Based Doctor's Portal</strong> - Offers a user-friendly interface tailored for medical professionals.Enables access to patient information, allows input of symptoms, and provides AI-driven diagnostic and treatment suggestions</li>
 														  
-															<li style="text-align: justify;"><strong>Script Rewriting</strong> -  The Python scripts used for inserting data into the normalized schemas were rewritten to align with the updated database structure. This step ensured that the data insertion process was efficient and compatible with the new schema.
-															<li style="text-align: justify;"><strong>View Creation</strong>-Views were created to support the major use cases of the system. These views provided a convenient way to access and retrieve data based on specific requirements and criteria.</li>
+															<li style="text-align: justify;"><strong>FastAPI for Backend Services</strong> -  Handles requests from the Streamlit frontend, ensuring seamless communication between modules.Interacts with Pinecone and OpenAI to fetch personalized recommendations.Integrates with a PostgreSQL database for robust data management, facilitating efficient data storage and retrieval.</li>
+															<li style="text-align: justify;"><strong>Snowflake for Data Analysis and Storage</strong>- Extracts data from Amazon S3, ensuring a secure and reliable data source.Performs data cleaning, formatting, and modeling to enhance data quality.Interacts with FastAPI to contribute to the overall data processing workflow</li>
 																
 																
 														</ul>
@@ -278,10 +281,11 @@
 											</div>
 										</article>
 										<article>
-											<a href="https://github.com/Akshathapatil1998/Stock-Market-Real-Time-Data-Analysis" class="image"><img src="images/stockmarket.JPG" alt="" width="220" height="220"/></a>
+											<a href="https://github.com/Akshathapatil1998/Data-Quality-Assessment-and-Summarization-Tool" class="image"><img src="images/pdf summarization.png" alt="" width="220" height="220"/></a>
 											<div class="inner">
-												<h4> <a href="https://github.com/Akshathapatil1998/Stock-Market-Real-Time-Data-Analysis">Stock Market Real-Time Data Analyzer</a></h4>
-												<p style="text-align: justify;">In this project I have executed an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka. Technologies used are Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena, and SQL</p>
+												<h4> <a href="https://github.com/Akshathapatil1998/Data-Quality-Assessment-and-Summarization-Tool">Data Quality Assessment and Summarization Tool</a></h4>
+												<p style="text-align: justify;">This project involves building a Streamlit-based tool that serves two primary purposes:1. PDF Analyzer 2. Data Quality Evaluation Tool. Technologies used are Python, Amazon Web Services (AWS), PyPdf , Nougat , Spacy , Pandas Profiling , Great Expectations </p>
+												
 												<div class="details-wrapper">
 													<style>
 														details summary {
@@ -298,26 +302,38 @@
 													<summary>Project Details</summary>
 													<div>
 														<h3>Overview</h3>
-														<p style="text-align: justify;">The aim of this project was to implement an end-to-end data engineering solution for real-time stock market data. The goal was to efficiently handle a large dataset of 10,000 records and enable seamless data ingestion, processing, and analysis. The project involved the utilization of various technologies and tools including Python, AWS (EC2, S3), Apache Kafka, AWS Glue, Athena, and SQL </p>
-														<ul>
-															<li style="text-align: justify;"><strong>Real-time Data Processing</strong> - Implemented a scalable and fault-tolerant data pipeline using Apache Kafka as a real-time streaming platform. This allowed for the continuous ingestion of stock market data and ensured optimal processing speed.</li>
-															<li style="text-align: justify;"><strong>Data Transformation and Cataloging</strong> -Utilized AWS Glue for data transformation and cataloging. This involved cleaning and organizing the data to make it suitable for analysis, enabling efficient querying and data manipulation.</li>
-															<li style="text-align: justify;"><strong>Interactive Querying</strong> -  Leverage AWS Athena for interactive querying of the stock market data. This allowed users to perform ad-hoc queries using SQL to extract insights and perform analysis on the dataset.</li>
-															<li style="text-align: justify;"><strong>Optimal Processing Speed</strong> - Achieve an impressive processing speed of 5,000 records per second. This ensured efficient and reliable processing of the stock market data, enabling timely analysis and decision-making</li>
-															
-																
-																
-														</ul>
+														<p style="text-align: justify;"><strong>1. PDF Analyzer:</strong> The aim is to build a tool that will load a PDF link provided by the user and extract the data from the PDF.</p>
+<p style="text-align: justify;"><strong>2. Quality Assessment Tool:</strong> The aim is to build a tool that takes the file containing the Freddie Mac dataset that needs to be evaluated and tests the data quality. It is checked if the dataset adheres to the schema and follows great expectations.</p>
+														
+
+														
+														
+														<p><strong>Part 1: PDF Analyzer</strong></p>
+<ul>
+    <li>Allows users to input a link to a PDF document from the SEC website.</li>
+    <li>Provides the option to choose between the "nougat" and "pypdf" libraries for PDF processing.</li>
+    <li>The two data sources (PDF files) are connected directly to the "streamlit" component.</li>
+    <li>From "streamlit," the data flows to two different custom components: "Nougat" and "PyPdf."</li>
+    <li>Both "Nougat" and "PyPdf" components feed their processed data to a custom component called "Spacy."</li>
+</ul>
+
+<p><strong>Part 2: Data Quality Evaluation Tool</strong></p>
+<ul>
+    <li>Data from the "Freddie Mac Origination File" and "Freddi Mac Monthly Performance File" is directed to the "Pandas Profiling" component for data processing.</li>
+    <li>Enables users to upload CSV/XLS files containing either Origination or Monthly performance data from the Freddie Mac Single Family Dataset.</li>
+    <li>Pandas Profiling is performed to generate data summaries and displays them to the end user.</li>
+    <li>Great Expectations tests are executed to ensure that the data adheres to the schema published by Freddie Mac by performing validations. This validation process ensures that the data meets the specified criteria and quality standards.</li>
+</ul>
 													</div>
 													
 												</details>
 											</div>
 										</article>
 										<article>
-											<a href="https://github.com/Akshathapatil1998/Uber-Data-Analytics" class="image"><img src="images/uberdataanalytics.JPG" alt="" width="200" height="200"/></a>
+											<a href="https://github.com/Akshathapatil1998/PDF-Data-Wizard" class="image"><img src="images/data wizard.png" alt="" width="200" height="200"/></a>
 											<div class="inner">
-												<h4> <a href="https://github.com/Akshathapatil1998/Uber-Data-Analytics" > Uber Data Analytics</a></h4>
-												<p style="text-align: justify;">The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.</p>
+												<h4> <a href="https://github.com/Akshathapatil1998/PDF-Data-Wizard" > PDF Data Wizard</a></h4>
+												<p style="text-align: justify;">This project, "PDF Data Wizard," is a culmination of two distinct pipelines and a client-facing application that integrates Airflow, FastAPI, Streamlit, and Pinecone. The goal of this project is to automate the extraction of metadata and document embeddings from a sample set of PDF files and create a user-friendly interface for querying and retrieving information efficiently.</p>
 												<div class="details-wrapper">
 													<style>
 														details summary {
@@ -334,16 +350,41 @@
 													<summary>Project Details</summary>
 													<div>
 														<h3>Overview</h3>
-														<p style="text-align: justify;">The aim of this project was to develop an efficient and streamlined data processing pipeline for improved data quality and faster data processing time. The project involved the development of ETL (Extract, Transform, Load) scripts in Python, leveraging the Mage data pipeline tool, and utilizing SQL queries in BigQuery for generating actionable insights. The insights were then presented in visually appealing dashboards using Looker to enable data-driven decision-making.</p>
-														<ul>
-															<li style="text-align: justify;"><strong>Enhanced Data Quality</strong> - Developed ETL scripts that aimed to improve the quality of the processed data. This involved data cleansing, data profiling, and validation techniques to ensure data accuracy and consistency</li>
+														<p style="text-align: justify;"><strong>1. Automating the embedding creation and populating the Vector database
+															:</strong> The aim is to create an automated system using Apache Airflow that processes PDF files to extract useful information, transforms this information into embeddings, and stores both metadata and embeddings into Pinecone, a vector database.</p>
+<p style="text-align: justify;"><strong>2. Client facing application using Streamlit and Fastapi:</strong> The aim is to create a secure web application that enables user registration and login, offers a question-answering interface after authentication, allows form selection for targeted queries, and employs Pinecone for efficient similarity searches .</p>
+														
+														<!-- <p style="text-align: justify;">The project is to create an end-to-end system that enables efficient extraction, processing, and querying of information from PDF files while also providing a user-friendly interface for users to interact with the extracted data<ul>
+															<li style="text-align: justify;"><strong>Data Collection</strong> -The system starts with multiple PDFs as the primary source of data. </li>
 															<li style="text-align: justify;"><strong>Streamlined Data Processing Pipeline</strong> -Utilize the modern data pipeline tool Mage to streamline and automate the data processing workflow. This would enhance operational efficiency by reducing manual intervention and ensuring a smoother and more scalable data processing process.</li>
 															<li style="text-align: justify;"><strong>Actionable Insights through SQL Queries</strong> - Utilize SQL queries in BigQuery to extract actionable insights from the processed data. The queries would involve aggregations, filtering, and joining of relevant datasets to derive meaningful insights.</li>
 															<li style="text-align: justify;"><strong>Visual Dashboard Presentation</strong> - Present the generated insights in visually appealing dashboards using Looker. These dashboards would provide an intuitive and user-friendly interface to visualize and interact with the data, enabling stakeholders to make data-driven decisions</li>
 															
 																
 																
-														</ul>
+														</ul> -->
+
+														<p><strong>Part 1: Automating the embedding creation and populating the Vector database</strong></p>
+<ul>
+    <li><strong>Data Processing Professional:</strong> Led the design and implementation of a system for processing, transforming, and querying data from multiple PDFs.</li>
+    <li><strong>Workflow Management:</strong> Utilized Apache Airflow for efficient management, scheduling, and monitoring of data processing workflows..</li>
+    <li><strong>Containerization Expertise:</strong>Employed Docker to streamline the creation, deployment, and running of applications through containerization..</li>
+    <li><strong>cloud-based Processing:</strong> Implemented processing on Google Cloud Platform Virtual Machine (GCP VM) for scalable and powerful cloud-based data processing.</li>
+    <li><strong>Transformation and Storage:</strong> Engineered data transformation processes, converting data into numerical embeddings for machine-friendly representation.
+		Implemented storage of numerical embeddings in Pinecone Vector Database, ensuring efficient storage and querying capabilities</li>
+	<li><strong>User Interaction Design:</strong> Enabled user interaction through query submissions, enhancing system usability.</li>
+	<li><strong>API Integration:</strong>Integrated OpenAI API, leveraging its capabilities to fetch and interpret results from Pinecone Vector DB.</li>
+</ul>
+
+<p><strong>Part 2:Client facing application using Streamlit and FastApi</strong></p>
+<ul>
+    <li><strong>Client-Facing Application Developer:</strong>Led the development of a client-facing application with a focus on user authentication and interaction.</li>
+    <li><strong>Streamlit for User Interface:</strong> Streamlit, an open-source app framework for Machine Learning and Data Science teams, to create an intuitive and user-friendly interface</li>
+    <li><strong>User Registration and Authentication:</strong> a streamlined user registration and login process within the Streamlit interface.Collected user information, including username and password, to establish secure user accounts</li>
+    <li><strong>Token Generation:</strong>Implemented JWT (JSON Web Token) generation post user authentication to ensure secure and authenticated user sessions. Utilized JWT as a compact, URL-safe means of representing claims for secure data transfer.</li>
+	<li><strong>Heroku Deployment:</strong> Deployed authenticated sessions and services on Heroku, a cloud platform for building, delivering, monitoring, and scaling applications.Hosted backend operations of the user interface and JWT token authentication on Heroku.</li>
+	<li><strong>Integration with FastAPI:</strong> Integrated the system with FastAPI, a modern, fast web framework for building APIs with Python.Enabled seamless communication between the client-facing application and FastAPI for efficient backend services.</li>
+</ul>
 													</div>
 												</details>
 											</div>
